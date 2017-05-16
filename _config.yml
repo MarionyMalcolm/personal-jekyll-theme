@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://panossakkos.github.io"
+url: "https://marionymalcolm.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -22,24 +22,24 @@ google-tracking-id: ""
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: True
+force-https: False
 
 #############
 # HTML Head #
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Malcolm Haslam"
+title: "{ Pa'tolao }"
+description: "Pa'riba, Pa'bajo, Pa'la derecha o Pa'tolao  ."
+keywords: ""
 favicon: "/img/favicon.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/logo5.svg"
 
 background-img: "../img/intro-bg.jpg"
 
@@ -49,16 +49,19 @@ background-img: "../img/intro-bg.jpg"
 
 dynamic-typing: True
 shuffle: True # Shuffle the lines.
-loop: True
+loop: False
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Pa'riba"
+  - text: "Pa'bajo"
+  - text: "Pal'derecha"
+  - text: "Pal'izquierda"
+  - text: "Pa'to lao"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/nous-icon-310x310.png"
 
 ##############################
 # Color the browser elements #
