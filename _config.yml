@@ -55,10 +55,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 1000
 lines: # You can add HTML Tags in the Text
+  - text: "Pa'llà"
+  - text: "Pa'ca"
   - text: "Pa'riba"
   - text: "Pa'bajo"
-  - text: "Pa'allà"
-  - text: "Pa'acà"
   - text: "Pa'tolao"
 
 me-img: "/img/nous-icon-310x310.png"
