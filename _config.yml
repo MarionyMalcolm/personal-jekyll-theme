@@ -30,8 +30,8 @@ force-https: False
 
 lang: "en"
 author: "Malcolm Haslam"
-title: "{ Pa'tolao }"
-description: "Pa'riba, Pa'bajo, Pa'la derecha o Pa'tolao  ."
+title: " Pa'qualquier lao "
+description: "Pa'llà, Pa'ca, Pa'riba, Pa'bajo,  PA'QUALQUIER LAO ."
 keywords: ""
 favicon: "/img/favicon.ico"
 
@@ -57,8 +57,8 @@ delete-delay: 1000
 lines: # You can add HTML Tags in the Text
   - text: "Pa'riba"
   - text: "Pa'bajo"
-  - text: "Pal'derecha"
-  - text: "Pal'izquierda"
+  - text: "Pa'allà"
+  - text: "Pa'acà"
   - text: "Pa'tolao"
 
 me-img: "/img/nous-icon-310x310.png"
@@ -66,8 +66,8 @@ me-img: "/img/nous-icon-310x310.png"
 ##############################
 # Color the browser elements #
 ##############################
-color-browser: "#000000"
-apple-status-bar-style: "black"
+color-browser: "#FFFFF"
+apple-status-bar-style: "white"
 
 ################
 # Web app mode #

@@ -84,10 +84,11 @@ a {
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: $navbar-sm-background-color;
-
+    background: url(../img/intro-bg.jpg) no-repeat top center scroll;
+    background-size: cover;
     /* Fix height limit and scroll for small screen and many items menu */
     max-height: 100%;
-    overflow-y: auto;
+    overflow-y: hidden;
 
     .navbar-toggle {
         padding: 4px 6px;
@@ -109,12 +110,13 @@ a {
         @if $header-text-shadow{
             text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
         }
+   	padding: 5px 15px;
     }
 	div{
 		height:inherit;
 	}
 		img{
-			height:inherit;
+			 max-height: 40px;
 		}
     .nav {
         text-align: center;
@@ -155,7 +157,9 @@ a {
         transition: background .5s ease-in-out,padding .5s ease-in-out;
         &.top-nav-collapse {
             padding: 0;
-            background: $navbar-lg-collapse-background-color;
+            /*background: $navbar-lg-collapse-background-color;*/
+   	    background: url(../img/intro-bg.jpg) no-repeat top center scroll;
+	    background-size: cover;
             border-bottom: 1px solid rgba($font-color, 0.3);
         }
     }
