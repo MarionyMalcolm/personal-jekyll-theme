@@ -178,12 +178,14 @@ function handleAuthResult(authResult) {
 //--------------------- API CALL itself
 function makeApiCall() {
     var today = new Date(); //today date
+	var tomorrow = new Date( new Date().setDate(new Date().getDate() + 1));
     gapi.client.load('calendar', 'v3', function () {
         var request = gapi.client.calendar.events.list({
             'calendarId' : userEmail,
             'timeZone' : userTimeZone, 
             'singleEvents': true, 
             'timeMin': today.toISOString(), //gathers only events not happened yet
+			'timeMax': tomorrow.toISOString(),
             'maxResults': maxRows, 
             'orderBy': 'startTime'});
     request.execute(function (resp) {
