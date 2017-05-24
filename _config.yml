@@ -173,7 +173,7 @@ keybase-in-footer: True
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
+  Onde Vamos: 'about'
   Blog: 'latest-post'
   Gear: 'gear'
   Contact: 'contact'
